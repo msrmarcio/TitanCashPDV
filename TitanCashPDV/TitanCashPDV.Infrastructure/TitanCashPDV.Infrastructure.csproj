@@ -6,4 +6,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Data\" />
+    <Folder Include="Adapters\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TitanCashPDV.Domain\TitanCashPDV.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

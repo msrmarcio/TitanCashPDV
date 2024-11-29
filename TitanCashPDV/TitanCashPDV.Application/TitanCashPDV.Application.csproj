@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TitanCashPDV.Domain\TitanCashPDV.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
