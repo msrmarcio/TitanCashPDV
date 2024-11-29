@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "TitanCashPDV.Database", "TitanCashPDV.Database\TitanCashPDV.Database.sqlproj", "{BBF82B99-E2F6-4CAC-9209-97804A79CB90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TitanCashPDV.UI", "TitanCashPDV.UI\TitanCashPDV.UI.csproj", "{D8005C14-9EB5-4982-B901-2538F180DA0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TitanCashPDV.Application", "TitanCashPDV.Application\TitanCashPDV.Application.csproj", "{4783AB1D-3257-4136-9520-05614AF24032}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TitanCashPDV.Infrastructure", "TitanCashPDV.Infrastructure\TitanCashPDV.Infrastructure.csproj", "{73867C2D-122B-42FC-8BE0-DE3553EC8D3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TitanCashPDV.Domain", "TitanCashPDV.Domain\TitanCashPDV.Domain.csproj", "{09D6CE2C-8BF3-4408-ABD8-5BDE223E847E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBF82B99-E2F6-4CAC-9209-97804A79CB90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBF82B99-E2F6-4CAC-9209-97804A79CB90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBF82B99-E2F6-4CAC-9209-97804A79CB90}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{BBF82B99-E2F6-4CAC-9209-97804A79CB90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBF82B99-E2F6-4CAC-9209-97804A79CB90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBF82B99-E2F6-4CAC-9209-97804A79CB90}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{D8005C14-9EB5-4982-B901-2538F180DA0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8005C14-9EB5-4982-B901-2538F180DA0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8005C14-9EB5-4982-B901-2538F180DA0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8005C14-9EB5-4982-B901-2538F180DA0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4783AB1D-3257-4136-9520-05614AF24032}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4783AB1D-3257-4136-9520-05614AF24032}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4783AB1D-3257-4136-9520-05614AF24032}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4783AB1D-3257-4136-9520-05614AF24032}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73867C2D-122B-42FC-8BE0-DE3553EC8D3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73867C2D-122B-42FC-8BE0-DE3553EC8D3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73867C2D-122B-42FC-8BE0-DE3553EC8D3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73867C2D-122B-42FC-8BE0-DE3553EC8D3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09D6CE2C-8BF3-4408-ABD8-5BDE223E847E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09D6CE2C-8BF3-4408-ABD8-5BDE223E847E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09D6CE2C-8BF3-4408-ABD8-5BDE223E847E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09D6CE2C-8BF3-4408-ABD8-5BDE223E847E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7135FCFE-D93D-4E4A-82E2-BDB9967F7709}
+	EndGlobalSection
+EndGlobal
