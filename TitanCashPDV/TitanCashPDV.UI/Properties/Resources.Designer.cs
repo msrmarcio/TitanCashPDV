@@ -63,6 +63,16 @@ namespace TitanCashPDV.UI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap backround {
+            get {
+                object obj = ResourceManager.GetObject("backround", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap telas_cadastro_login {
             get {
                 object obj = ResourceManager.GetObject("telas cadastro-login", resourceCulture);

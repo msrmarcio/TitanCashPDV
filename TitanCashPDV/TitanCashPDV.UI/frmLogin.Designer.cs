@@ -44,9 +44,9 @@
             btnLogin.FlatAppearance.MouseDownBackColor = Color.Lime;
             btnLogin.FlatAppearance.MouseOverBackColor = Color.FromArgb(192, 255, 192);
             btnLogin.FlatStyle = FlatStyle.Flat;
-            btnLogin.Location = new Point(104, 324);
+            btnLogin.Location = new Point(254, 258);
             btnLogin.Name = "btnLogin";
-            btnLogin.Size = new Size(130, 33);
+            btnLogin.Size = new Size(104, 33);
             btnLogin.TabIndex = 0;
             btnLogin.Text = "Login";
             btnLogin.UseVisualStyleBackColor = true;
@@ -55,23 +55,23 @@
             // txtUsername
             // 
             txtUsername.Font = new Font("Segoe UI", 12F);
-            txtUsername.Location = new Point(52, 191);
+            txtUsername.Location = new Point(217, 139);
             txtUsername.Name = "txtUsername";
-            txtUsername.Size = new Size(214, 29);
+            txtUsername.Size = new Size(179, 29);
             txtUsername.TabIndex = 1;
             // 
             // txtPassword
             // 
             txtPassword.Font = new Font("Segoe UI", 12F);
-            txtPassword.Location = new Point(52, 249);
+            txtPassword.Location = new Point(217, 197);
             txtPassword.Name = "txtPassword";
-            txtPassword.Size = new Size(214, 29);
+            txtPassword.Size = new Size(179, 29);
             txtPassword.TabIndex = 2;
             // 
             // lblUsername
             // 
             lblUsername.AutoSize = true;
-            lblUsername.Location = new Point(52, 173);
+            lblUsername.Location = new Point(217, 121);
             lblUsername.Name = "lblUsername";
             lblUsername.Size = new Size(47, 15);
             lblUsername.TabIndex = 3;
@@ -80,7 +80,7 @@
             // lblSenha
             // 
             lblSenha.AutoSize = true;
-            lblSenha.Location = new Point(52, 231);
+            lblSenha.Location = new Point(217, 179);
             lblSenha.Name = "lblSenha";
             lblSenha.Size = new Size(39, 15);
             lblSenha.TabIndex = 4;
@@ -90,9 +90,9 @@
             // 
             pictureBox1.BackColor = Color.Transparent;
             pictureBox1.Image = Properties.Resources.telas_cadastro_login;
-            pictureBox1.Location = new Point(104, 12);
+            pictureBox1.Location = new Point(254, 12);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(130, 133);
+            pictureBox1.Size = new Size(104, 102);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 5;
             pictureBox1.TabStop = false;
@@ -100,7 +100,7 @@
             // linkLabel1
             // 
             linkLabel1.AutoSize = true;
-            linkLabel1.Location = new Point(175, 281);
+            linkLabel1.Location = new Point(305, 229);
             linkLabel1.Name = "linkLabel1";
             linkLabel1.Size = new Size(91, 15);
             linkLabel1.TabIndex = 6;
@@ -111,7 +111,9 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(348, 369);
+            BackgroundImage = Properties.Resources.backround;
+            BackgroundImageLayout = ImageLayout.Stretch;
+            ClientSize = new Size(418, 303);
             Controls.Add(linkLabel1);
             Controls.Add(pictureBox1);
             Controls.Add(lblSenha);
